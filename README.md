@@ -90,7 +90,7 @@ docker login
 
 Publier l'image :
 ```
-docker push votreIdDocherHub/rental:1      
+docker push votreIdDockerHub/rental:1      
 ```
 
 ### Installer Minikube
@@ -108,7 +108,7 @@ kubectl get nodes
 ```
 Désployer votre image Docker :
 ```
-kubectl create deployment rentalservice --image=charroux/rentalservice:1      
+kubectl create deployment rentalservice --image=votreIdDockerHub/rentalservice:1      
 ```
 Attention d'utiliser votre image.
 
@@ -133,8 +133,4 @@ Récupérer l'adresse du service :
 ```
 minikube service rentalservice --url                      
 ```    
-Tester dans votre navigateur :
-
-http://127.0.0.1:50784/cars
-
-En adaptant l'URL.
+Tester dans votre navigateur
