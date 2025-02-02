@@ -79,7 +79,7 @@ http://localhost:4000/cars
 
 Tager l'image :
 ```
-docker tag 4da2332370c7 votreIdDocherHub/rental:1
+docker tag 4da2332370c7 votreIdDockerHub/rental:1
 ```
 où le numéro est l'identifiant de l'image donné par docker images, et 1 est un numéro de version
 
